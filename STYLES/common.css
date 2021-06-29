@@ -1,0 +1,107 @@
+/*common styles*/
+body {
+    margin:0px;
+    font-family: 'roboto',sans-sarif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'roboto slab',serif;
+}
+
+/* Skewed header */
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform:skewY(-6deg) ;
+    transform-origin: top left;
+    filter:brightness(50%)
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #CEA135;
+    color: #11122B;
+    width: 175px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Page container styles */
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 25px;
+    float: left;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 23px 40px 20px 0;
+    float: left;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 23px 40px 20px 0;
+    float: left;
+    border: 1px solid #cea135;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
